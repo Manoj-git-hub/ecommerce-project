@@ -57,10 +57,10 @@ This is a RESTful API for a modern e-commerce application, built using the power
 git clone [https://github.com/Manoj-git-hub/ecommerce-project.git](https://github.com/Manoj-git-hub/ecommerce-project.git)
 cd your-repo-name
 
-### 2.Configure the application
+2.Configure the application
 The application uses an in-memory H2 database by default. You can configure a production database by editing the src/main/resources/application.properties file.
 
-### 3.Build and run the application
+3.Build and run the application
 # Build the project and run tests
 ./mvnw clean install
 
