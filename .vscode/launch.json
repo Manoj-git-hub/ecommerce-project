@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SecretKeyGenerator",
+            "request": "launch",
+            "mainClass": "com.ecommerce.ecommerce_backend.SecretKeyGenerator",
+            "projectName": "ecommerce-backend"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EcommerceBackendApplication<ecommerce-backend>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ecommerce.ecommerce_backend.EcommerceBackendApplication",
+            "projectName": "ecommerce-backend",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
